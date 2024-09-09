@@ -82,17 +82,18 @@ impl<T: Ord + Clone + Display> BinaryTree<T> {
     }
 
     // Recursive traversal: in-order traversal
-    fn inorder(&self) {
-        match self {
-            BinaryTree::Empty => {}
-            BinaryTree::Node { value, left, right } => {
-                left.inorder();
-                print!("{} ", value);
-                right.inorder();
+        fn print_in_order(&self) {
+            match self {
+                BinaryTree::Empty => (),
+                BinaryTree::Node { left, value, right } => {
+                    left.print_in_order();
+                    print!("{} ", value);
+                    right.print_in_order();
+                }
             }
         }
-    }
 }
+
 
 fn main() {
     // Create a new binary tree
@@ -108,11 +109,11 @@ fn main() {
     tree.insert(8);
 
     println!("In-order traversal:");
-    tree.inorder(); // Should print: 2 3 4 5 6 7 8
+    tree.print_in_order(); // Should print: 2 3 4 5 6 7 8
 
     // Delete a value from the binary tree
     tree = tree.delete(3);
 
     println!("\nIn-order traversal after deleting 3:");
-    tree.inorder(); // Should print: 2 4 5 6 7 8
+    tree.print_in_order(); // Should print: 2 4 5 6 7 8
 }
