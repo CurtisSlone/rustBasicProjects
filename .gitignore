@@ -1,2 +1,4 @@
 **/target
 allprojects.txt
+**/*.exe
+**/*.pdb
