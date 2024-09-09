@@ -2,3 +2,4 @@
 allprojects.txt
 **/*.exe
 **/*.pdb
+bin/
