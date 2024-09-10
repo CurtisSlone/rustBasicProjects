@@ -94,4 +94,8 @@ A web scraper project for extracting and processing data from web pages, demonst
 ### `io`
 This section focuses on handling Input/Output (I/O) operations in Rust.
 
+## `Data Encapsulation`
+This section covers how to encapsulate data and functions in Rust by using structs, modules, and type aliases, while exploring the convenience of dot notation for method invocation.
+
+
 Feel free to explore each directory to gain hands-on experience with different Rust concepts and practices.
