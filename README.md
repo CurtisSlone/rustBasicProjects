@@ -94,7 +94,7 @@ A web scraper project for extracting and processing data from web pages, demonst
 ### `io`
 This section focuses on handling Input/Output (I/O) operations in Rust.
 
-## `dataencapsulation`
+### `dataencapsulation`
 This section covers how to encapsulate data and functions in Rust by using structs, modules, and type aliases, while exploring the convenience of dot notation for method invocation.
 
 ### `errorhandling`
@@ -107,5 +107,8 @@ This section shows how to use object oriented paradigms in Rust
 
 ### `where`
 This section shows the flexibility of the where keyword in trait use of Rust
+
+### `standardlibrarycollections`
+This section shows the performance cases of the standard library collections in Rust
 
 Feel free to explore each directory to gain hands-on experience with different Rust concepts and practices.
