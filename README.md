@@ -105,4 +105,7 @@ This section demonstrates how to use error handling in Rust
 
 This section shows how to use object oriented paradigms in Rust
 
+### `where`
+This section shows the flexibility of the where keyword in trait use of Rust
+
 Feel free to explore each directory to gain hands-on experience with different Rust concepts and practices.
