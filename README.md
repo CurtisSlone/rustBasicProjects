@@ -97,5 +97,12 @@ This section focuses on handling Input/Output (I/O) operations in Rust.
 ## `dataencapsulation`
 This section covers how to encapsulate data and functions in Rust by using structs, modules, and type aliases, while exploring the convenience of dot notation for method invocation.
 
+### `errorhandling`
+
+This section demonstrates how to use error handling in Rust
+
+### `objectorientedprogramming`
+
+This section shows how to use object oriented paradigms in Rust
 
 Feel free to explore each directory to gain hands-on experience with different Rust concepts and practices.
