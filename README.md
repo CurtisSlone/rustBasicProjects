@@ -91,4 +91,7 @@ Examples and exercises related to Rust traits, including trait implementation an
 ### `webscraper`
 A web scraper project for extracting and processing data from web pages, demonstrating web scraping techniques.
 
+### `io`
+This section focuses on handling Input/Output (I/O) operations in Rust.
+
 Feel free to explore each directory to gain hands-on experience with different Rust concepts and practices.
